@@ -1,0 +1,6 @@
+cn\wolfcode\tx\stock\service\impl\StockServiceImpl.class
+cn\wolfcode\tx\stock\domain\Stock.class
+cn\wolfcode\tx\StockApplication.class
+cn\wolfcode\tx\stock\mapper\StockMapper.class
+cn\wolfcode\tx\stock\service\IStockService.class
+cn\wolfcode\tx\stock\controller\StockController.class

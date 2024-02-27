@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package com.devProblems;
+
+message RequestObject {
+  bytes serializedRequest = 1;
+}
+
+message ResponseObject {
+  string result = 1;
+}
+
+message stockDeductRequest {
+  string commodityCode = 1;
+  int32 orderCount = 2;
+  bytes meta = 3;
+}
+
+message OrderRequest {
+  string userId = 1;
+  string commodityCode = 2;
+  int32 orderCount = 3;
+}
+
+message AccountRequest {
+  string userId = 1;
+  int32 orderMoney = 2;
+}
+
+
+
+service AllGrpcService {
+  rpc stockDeduct(stockDeductRequest) returns (ResponseObject);
+  rpc orderCreate(OrderRequest) returns (ResponseObject);
+  rpc accountDeduct(AccountRequest) returns (ResponseObject);
+}
