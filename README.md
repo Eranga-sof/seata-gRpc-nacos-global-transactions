@@ -1,4 +1,4 @@
-# seata1.7+nacos2.0.2+springboot
+# seata1.7 nacos2.0.2 springboot
 
 MAIN SAMPLE REPO - https://gitee.com/fuyan_u/seata1.7-nacos2.0.2-springboot?_from=gitee_search
 GRPC INTERCEPTOR - https://gitee.com/oschinajungle/springboot-grpc-seata-starter/tree/master
